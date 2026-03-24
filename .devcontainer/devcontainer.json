@@ -1,8 +1,10 @@
 {
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "postCreateCommand": "npm install && npm run setup && npm install -g opencode-ai && chmod +x .devcontainer/setup-opencode.sh && .devcontainer/setup-opencode.sh",
+  "postCreateCommand": "npm install && npm run setup",
+  "onCreateCommand": ".devcontainer/setup-opencode.sh",
   "forwardPorts": [3000, 4096],
   "remoteEnv": {
-    "NODE_ENV": "development"
+    "NODE_ENV": "development",
+    "OPENCODE_ACCESS_TOKEN": "${OPENCODE_ACCESS_TOKEN}"
   }
 }
