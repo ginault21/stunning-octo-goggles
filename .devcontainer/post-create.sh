@@ -3,4 +3,4 @@ set -e
 
 npm install -g opencode-ai
 npm install
-npm run setup
+npm run setup || true
