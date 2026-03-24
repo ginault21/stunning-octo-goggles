@@ -1,8 +1,0 @@
-{
-  "model": "google/gemini-3.1-flash-lite-preview",
-  "providers": {
-    "gemini": {
-      "api_key": "$OPENCODE_ACCESS_TOKEN"
-    }
-  }
-}
