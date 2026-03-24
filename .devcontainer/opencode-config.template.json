@@ -1,9 +1,0 @@
-{
-  "model": "google/gemini-3.1-flash-lite-preview",
-  "providers": {
-    "opencode": {
-      "api": "https://opencode.ai/zen/v1",
-      "token": "$OPENCODE_ACCESS_TOKEN"
-    }
-  }
-}
