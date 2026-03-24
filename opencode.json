@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "{env:OPENCODE_MODEL}",
+  "provider": {
+    "google": {
+      "options": {
+        "apiKey": "{env:GOOGLE_API_KEY}"
+      }
+    }
+  }
+}
