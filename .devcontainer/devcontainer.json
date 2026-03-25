@@ -1,11 +1,1 @@
-{
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "features": {
-    "ghcr.io/devcontainers/features/tmux:1": {}
-  },
-  "postCreateCommand": "bash .devcontainer/post-create.sh",
-  "forwardPorts": [3000, 4096],
-  "remoteEnv": {
-    "NODE_ENV": "development"
-  }
-}
+
